@@ -1,0 +1,22 @@
+.container {
+    width: 200px;
+    border: 35px solid rgb(140, 171, 196);
+    padding: 40px;
+    float: left;
+    margin-right: 60px;
+  }
+  
+  .item {
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .item:hover {
+    background-color: #e0e0e0;
+  }
+
+  .item.dropped {
+    background-color: #90EE90;
+  }
+  
